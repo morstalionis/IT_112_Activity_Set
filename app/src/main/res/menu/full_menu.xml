@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/wonder1"
+        android:title="Delicate Arch"
+        />
+    <item
+        android:id="@+id/wonder2"
+        android:title="Giant's Causeway"
+        />
+    <item
+        android:id="@+id/wonder3"
+        android:title="Mato Tipila"
+        />
+    <item
+        android:id="@+id/wonder4"
+        android:title="Torres del Paine"
+        />
+    <item
+        android:id="@+id/wonder5"
+        android:title="Yosemite"
+        />
+
+</menu>

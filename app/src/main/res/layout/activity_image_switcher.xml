@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    tools:context=".Image_Switcher">
+
+    <ImageSwitcher
+        android:id="@+id/switcher"
+        android:layout_width="360dp"
+        android:layout_height="521dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </ImageSwitcher>
+
+    <ImageButton
+        android:id="@+id/next_btn"
+        android:layout_width="124dp"
+        android:layout_height="156dp"
+        android:background="@null"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switcher"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/next_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/prev_btn"
+        android:layout_width="134dp"
+        android:layout_height="152dp"
+        android:background="@null"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switcher"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/prevt_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
